@@ -1,0 +1,27 @@
+@media(max-width:744px) {
+
+    /* header  */
+
+    header {
+        padding: 9px 24px;
+    }
+    .header_nav {
+        top: 101px;
+    }
+    .logo_div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo1 {
+        width: 113px;
+        height: 39px;
+    }
+
+    .logo2 {
+        width: 101px;
+        height: 39px;
+    }
+
+    
+}
