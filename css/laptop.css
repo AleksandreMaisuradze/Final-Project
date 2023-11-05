@@ -48,4 +48,11 @@
     .background_section_div {
         margin-inline: 40px;
     }
+
+    /* section2  */
+
+    .section2 {
+        flex-direction: column;
+        gap: 40px;
+    }
 }

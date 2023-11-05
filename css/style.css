@@ -1,7 +1,7 @@
 .container {
     width: min(100%, 1440px);
     margin: auto;
-    border: 10px solid red;
+    /* border: 10px solid red; */
 }
 
 /* header  */
@@ -159,4 +159,36 @@ header {
 }
 
 /* section2  */
+
+.section2 {
+    margin-top: 160px;
+    margin-bottom: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 24px;
+}
+
+.section2_2_picture {
+    display: flex;
+    column-gap: 24px;
+}
+
+.section2_pictures_text {
+    margin-top: 16px;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #B53B1B;
+    text-align: center;
+
+}
+.picture1_div:hover {
+    scale: 1.05;
+    box-shadow: 1px 1px 8px #a67468, -1px -1px 8px #a67468;
+    border-radius: 10px;
+}
+
+/* section3  */
 

@@ -33,7 +33,28 @@
     .background_section_title {
         font-size: 20px;
     }
+
     .background_section_text {
         font-size: 14px;
+    }
+
+    /* section2  */
+
+
+    .images_section2 {
+        width: 144px;
+    }
+
+    .section2 {
+        margin-top: 64px;
+        margin-bottom: 64px;
+        column-gap: 20px;
+    }
+
+    .section2_2_picture {
+        column-gap: 20px;
+    }
+    .section2_pictures_text {
+        font-size: 15px;
     }
 }
