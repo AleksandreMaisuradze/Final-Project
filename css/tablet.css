@@ -5,9 +5,11 @@
     header {
         padding: 9px 24px;
     }
+
     .header_nav {
         top: 101px;
     }
+
     .logo_div {
         display: flex;
         flex-direction: column;
@@ -23,5 +25,15 @@
         height: 39px;
     }
 
-    
+}
+
+@media(max-width:585px) {
+
+    /* background image section */
+    .background_section_div {
+        margin-inline: 20px;
+    }
+    .background_section_title {
+        font-size: 24px;
+    }
 }

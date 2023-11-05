@@ -31,7 +31,7 @@ header {
     display: none;
 }
 
-.fa-solid:hover{
+.fa-solid:hover {
     scale: 1.1;
     filter: drop-shadow(1px 1px 3px #FFFFFF);
 }
@@ -48,6 +48,7 @@ header {
     line-height: 22px;
     color: #FFFFFF;
 }
+
 .header_a:hover {
     font-size: 18.5px;
     border-bottom: 3px solid black;
@@ -83,6 +84,7 @@ header {
     font-weight: 400;
     line-height: 19px;
 }
+
 .header_button:hover {
     border: 1px solid #D5906E;
     border-radius: 5px;
@@ -94,3 +96,67 @@ header {
 }
 
 /* background image section  */
+
+.background_section {
+    background-image: url(../images/cover1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background_section_div {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.background_section_title {
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #FFFFFF;
+
+}
+
+.background_section_text {
+    margin-top: 16px;
+    margin-bottom: 56px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.background_section_button {
+    padding: 12px 45px;
+    border: 2px solid #D5906E;
+    border-radius: 10px;
+    background: transparent;
+    color: #FFFFFF;
+    transition: .2s linear;
+    color: white;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+.background_section_button:hover {
+    scale: 1.25;
+    box-shadow:
+        1px 1px 2px #D5906E,
+        inset 1px 1px 2px #D5906E;
+}
+
+/* section2  */
+

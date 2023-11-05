@@ -4,9 +4,11 @@
     header {
         padding-inline: 16px;
     }
+
     .header_nav {
         top: 111px;
     }
+
     .logo1 {
         width: 87px;
         height: 44px;
@@ -24,5 +26,14 @@
     .fa-bars,
     .fa-cart-shopping {
         font-size: 20px;
+    }
+
+    /* background image section */
+
+    .background_section_title {
+        font-size: 20px;
+    }
+    .background_section_text {
+        font-size: 14px;
     }
 }

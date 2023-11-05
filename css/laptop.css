@@ -43,4 +43,9 @@
     .show {
         left: 0;
     }
+    /* background image section */
+
+    .background_section_div {
+        margin-inline: 40px;
+    }
 }
