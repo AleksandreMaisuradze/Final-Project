@@ -42,6 +42,43 @@
     .article2 {
         width: 100%;
     }
+
+    /* footer */
+
+    footer {
+        padding: 24px;
+    }
+
+}
+
+@media(max-width:670px) {
+
+    /* footer  */
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .help_title,
+    .help_txt1,
+    .help_txt2 {
+        text-align: center;
+    }
+
+    .footer_logo {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    .contact_main_div {
+        display: flex;
+        column-gap: 24px;
+    }
+
+    .contact_txt {
+        display: none;
+    }
 }
 
 @media(max-width:585px) {

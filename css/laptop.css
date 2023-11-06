@@ -115,6 +115,12 @@
 
     }
 
+    /* footer  */
+
+    footer {
+        padding: 32px;
+    }
+
 }
 
 @media(max-width:850px) {
