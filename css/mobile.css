@@ -74,9 +74,20 @@
     .section5_form_input {
         width: 200px;
     }
+
     .section5_form_button {
         width: 110px;
         padding-inline: 7px;
         font-size: 14px;
+    }
+
+    /* section6  */
+
+    .section6 {
+        padding: 64px 24px;
+    }
+
+    .help_center_button {
+        font-size: 17px;
     }
 }

@@ -30,6 +30,18 @@
     .section4 {
         padding-inline: 24px;
     }
+
+    /* section6 */
+
+    .article1_and_article2 {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .article1,
+    .article2 {
+        width: 100%;
+    }
 }
 
 @media(max-width:585px) {
