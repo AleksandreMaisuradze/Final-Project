@@ -62,4 +62,10 @@
     .section2_pictures_text {
         font-size: 15px;
     }
+
+    /* section4  */
+
+    .section4 {
+        padding: 64px 24px;
+    }
 }

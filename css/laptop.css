@@ -36,6 +36,13 @@
         height: 260px;
         object-fit: cover;
     }
+    /* section4  */
+    .section4 {
+        padding-inline: 32px;
+    }
+    .left, .right {
+        display: none;
+    }
 }
 
 @media(max-width:1130px) {

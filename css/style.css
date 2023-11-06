@@ -254,3 +254,46 @@ header {
 
 /* section4  */
 
+.section4 {
+    padding: 160px 52px;
+}
+
+.section4_title {
+    margin-bottom: 40px;
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #402101;
+    text-align: center;
+
+}
+
+.products {
+    display: flex;
+    column-gap: 24px;
+    align-items: center;
+    overflow-x: scroll;
+}
+
+.section4_pictures {
+    position: relative;
+}
+
+.section4_price {
+    width: 88px;
+    padding: 15px 17px;
+    position: relative;
+    border-radius: 20px;
+    left: 16px;
+    top: -64px;
+    color: #B53B1B;
+    font-size: 16px;
+    font-family: Inter sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    background-color: #FFFFFF;
+    color: #B53B1B;
+    text-align: center;
+    
+}

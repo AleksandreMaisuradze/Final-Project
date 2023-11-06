@@ -25,6 +25,11 @@
         height: 39px;
     }
 
+    /* section4  */
+
+    .section4 {
+        padding-inline: 24px;
+    }
 }
 
 @media(max-width:585px) {
