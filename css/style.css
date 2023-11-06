@@ -1,7 +1,7 @@
 .container {
     width: min(100%, 1440px);
     margin: auto;
-    /* border: 10px solid red; */
+    border: 10px solid red;
 }
 
 /* header  */
@@ -276,8 +276,8 @@ header {
     overflow-x: scroll;
 }
 
-.section4_pictures {
-    position: relative;
+.section4_images:hover {
+    scale: 1.04;
 }
 
 .section4_price {
@@ -295,5 +295,87 @@ header {
     background-color: #FFFFFF;
     color: #B53B1B;
     text-align: center;
-    
+
 }
+
+/* second background section  */
+
+.section5 {
+    background-image: url(../images/Rectangle\ 98.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section5_div {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.form_title {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #FFFFFF;
+
+}
+
+.section5_form {
+    display: flex;
+    align-items: center;
+}
+
+
+.section5_form_input {
+    width: 331px;
+    padding: 19px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px 0 0 10px;
+    color: #FFFFFF;
+}
+
+.section5_form_input::placeholder {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.section5_form_button {
+    width: 151px;
+    padding: 17px 26px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #402101;
+    animation-name: BUTTON;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+}
+
+@keyframes BUTTON {
+    0% {
+        color: inherit;
+        font-weight: inherit;
+    }
+
+    100% {
+        color: #D5906E;
+        font-weight: 800;
+    }
+
+}
+
+/* section6  */

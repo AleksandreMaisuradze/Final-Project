@@ -68,4 +68,15 @@
     .section4 {
         padding: 64px 24px;
     }
+
+    /* second background section */
+
+    .section5_form_input {
+        width: 200px;
+    }
+    .section5_form_button {
+        width: 110px;
+        padding-inline: 7px;
+        font-size: 14px;
+    }
 }
