@@ -40,9 +40,13 @@
 
     /* section2  */
 
+    .section2 {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
 
     .images_section2 {
-        width: 144px;
+        width: 138px;
     }
 
     .section2 {
@@ -54,6 +58,7 @@
     .section2_2_picture {
         column-gap: 20px;
     }
+
     .section2_pictures_text {
         font-size: 15px;
     }

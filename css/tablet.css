@@ -33,7 +33,34 @@
     .background_section_div {
         margin-inline: 20px;
     }
+
     .background_section_title {
         font-size: 24px;
+    }
+
+    /* section3  */
+    .section3 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .section3_title {
+        margin-bottom: 20px;
+    }
+
+    .section3_div1,
+    .section3_main_div {
+        gap: 20px;
+    }
+
+    .section3_picture5 {
+        display: none;
+    }
+
+    .section3_picture1,
+    .section3_picture2,
+    .section3_picture3 {
+        width: 100%;
+        height: 240px;
     }
 }
