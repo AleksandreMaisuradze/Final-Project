@@ -160,6 +160,12 @@
     .active6 {
         display: none;
     }
+
+    /* contact background image section */
+
+    .contact_form {
+        left: 24px;
+    }
 }
 
 @media(max-width:500px) {
@@ -189,5 +195,28 @@
     .artwork_shop_page_numbers {
         width: 40px;
         height: 40px;
+    }
+
+    /* contact background image section */
+
+    .contact_background_image_section {
+        height: 560px;
+    }
+
+    .contact_form {
+        top: 128px;
+        width: calc(432 / 480 * 100%);
+    }
+
+    .contact_form_title {
+        font-size: 32px;
+    }
+
+    .fullname_and_email_form_div {
+        column-gap: 20px;
+    }
+
+    .fullname_and_email {
+        width: 100%;
     }
 }

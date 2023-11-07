@@ -74,7 +74,7 @@
 @media(max-width:1219px) {
 
     /* Artwork shop section */
-    
+
     .artwork_shop_section {
         margin-inline: 32px;
     }
@@ -147,6 +147,16 @@
         padding: 32px;
     }
 
+}
+
+@media(max-width:950px) {
+
+    /* contact background image section */
+
+    .contact_form {
+        top: 160px;
+        left: 32px;
+    }
 }
 
 @media(max-width:850px) {
