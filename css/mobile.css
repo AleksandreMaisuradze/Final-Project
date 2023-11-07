@@ -6,7 +6,7 @@
     }
 
     .header_nav {
-        top: 111px;
+        top: 91px;
     }
 
     .logo1 {
@@ -107,5 +107,27 @@
         width: 90px;
         padding-inline: 10px;
         font-size: 14px;
+    }
+}
+
+@media(max-width:380px) {
+
+    /* Artwork shop section */
+
+    .artwork_shop_section {
+        margin-inline: 20px;
+    }
+
+    .arwork_shop_title {
+        font-size: 13px;
+    }
+
+    .artwork_shop_button {
+        padding: 4px;
+    }
+
+    .artwork_shop_page_numbers {
+        width: 34px;
+        height: 34px;
     }
 }

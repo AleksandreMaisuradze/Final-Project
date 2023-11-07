@@ -71,6 +71,32 @@
     }
 }
 
+@media(max-width:1219px) {
+
+    /* Artwork shop section */
+    
+    .artwork_shop_section {
+        margin-inline: 32px;
+    }
+
+    .artwork_shop_top_div {
+        width: calc(960 / 1024 * 100%);
+    }
+
+    .imgggg {
+        width: 100%;
+        height: 240px;
+    }
+
+    .shop_cards {
+        width: calc(468 / 1024 * 100%);
+    }
+
+    .active2 {
+        display: none;
+    }
+}
+
 @media(max-width:1130px) {
 
     /* header  */
