@@ -204,6 +204,7 @@
     }
 
     .contact_form {
+        left: 16px;
         top: 128px;
         width: calc(432 / 480 * 100%);
     }
