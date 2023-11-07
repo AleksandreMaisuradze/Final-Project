@@ -91,4 +91,21 @@
     .help_center_button {
         font-size: 17px;
     }
+
+    /* Artworks background image section */
+
+    .artwork_background_title {
+        font-size: 24px;
+        text-wrap: nowrap;
+    }
+
+    .artwork_form_input {
+        width: 200px;
+    }
+
+    .artwork_background_button {
+        width: 90px;
+        padding-inline: 10px;
+        font-size: 14px;
+    }
 }

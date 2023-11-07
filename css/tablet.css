@@ -81,6 +81,14 @@
     .contact_txt {
         display: none;
     }
+
+    /* Artworks background image section */
+    .artwork_form_input {
+        width: 235px;
+    }
+    .artwork_background_title{
+        font-size: 32px;
+    }
 }
 
 @media(max-width:585px) {

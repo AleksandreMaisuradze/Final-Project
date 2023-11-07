@@ -1,7 +1,7 @@
 .container {
     width: min(100%, 1440px);
     margin: auto;
-    /* border: 10px solid red; */
+    border: 10px solid red;
 }
 
 /* header  */
@@ -19,6 +19,8 @@ header {
     left: 50%;
     transform: translateX(-50%);
     top: 0;
+    backdrop-filter: blur(8px);
+    z-index: 1;
 }
 
 .fa-xmark {
@@ -569,4 +571,73 @@ footer {
 
 .icons:hover {
     scale: 1.5;
+}
+
+/* Artworks background image section  */
+
+.artwork_background {
+    background-image: url(../images/Rectangle\ 107.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 560px;
+}
+
+.artwork_background_div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.artwork_background_title {
+    margin-bottom: 47px;
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.artwork_form {
+    display: flex;
+}
+
+.artwork_form_input {
+    width: 408px;
+    padding: 16px;
+    outline: none;
+    border: 2px solid #D5906E;
+    border-radius: 10px 0 0 10px;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+.artwork_form_input::placeholder {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(213, 144, 110, 0.52);
+
+}
+
+.artwork_background_button {
+    width: 180px;
+    padding: 15px 53px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    background-color: #D5906E;
+    color: #FFFFFF;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+
+}
+.artwork_background_button:hover {
+   color: #402101;
+   font-weight: 800;
 }
