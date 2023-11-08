@@ -95,6 +95,20 @@
     .active2 {
         display: none;
     }
+
+    /* contact section */
+
+    .contact_section {
+        padding-inline: 32px;
+    }
+
+    .adress_main_div {
+        column-gap: 71px;
+    }
+
+    iframe {
+        width: 714px;
+    }
 }
 
 @media(max-width:1130px) {
@@ -156,6 +170,23 @@
     .contact_form {
         top: 160px;
         left: 32px;
+    }
+
+    /* contact section */
+
+    .contact_section_main_div {
+        padding: 0;
+
+    }
+
+    .adress_main_div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .adress_div {
+        margin-left: 40px;
+        margin-bottom: 40px;
     }
 }
 

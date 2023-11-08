@@ -865,3 +865,56 @@ footer {
 }
 
 /* contact section  */
+
+.contact_section {
+    padding-top: 160px;
+    padding-bottom: 160px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact_section_main_div {
+    padding-left: 20px;
+    background-color: rgba(213, 144, 110, 0.3);
+}
+
+.contact_title {
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #402101;
+
+}
+
+.adress_main_div {
+    display: flex;
+    column-gap: 210px;
+}
+
+.adress_div_titles {
+    margin-bottom: 7px;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #B53B1B;
+
+}
+
+.adress {
+    margin-bottom: 32px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    color: #623932;
+
+}
+
+iframe {
+    width: 815px;
+    height: 320px;
+}

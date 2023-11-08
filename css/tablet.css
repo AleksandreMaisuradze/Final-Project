@@ -61,6 +61,20 @@
         font-size: 24px;
 
     }
+
+    /* contact section */
+
+    .contact_section {
+        padding-inline: 24px;
+    }
+
+    .contact_section_main_div {
+        width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+    }
 }
 
 @media(max-width:670px) {
@@ -219,5 +233,20 @@
 
     .fullname_and_email {
         width: 100%;
+    }
+
+    /* contact section */
+    
+    .contact_section {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
+    .contact_title {
+        font-size: 32px;
+    }
+
+    .adress_div {
+        margin: 24px 30px;
     }
 }
