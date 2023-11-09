@@ -225,34 +225,14 @@ header {
 
 }
 
-.section3_picture1:hover {
+.section3_pictures:hover {
     border-radius: 10px;
     scale: 1.01;
     box-shadow: 0 0 10px #b6814d;
 }
 
-.section3_picture2:hover {
-    border-radius: 10px;
-    scale: 1.01;
-    box-shadow: 0 0 10px #b6814d;
-}
-
-.section3_picture3:hover {
-    border-radius: 10px;
-    scale: 1.01;
-    box-shadow: 0 0 10px #b6814d;
-}
-
-.section3_picture4:hover {
-    border-radius: 10px;
-    scale: 1.01;
-    box-shadow: 0 0 10px #b6814d;
-}
-
-.section3_picture5:hover {
-    border-radius: 10px;
-    scale: 1.01;
-    box-shadow: 0 0 10px #b6814d;
+.section3_pictures {
+    object-fit: cover;
 }
 
 /* section4  */
