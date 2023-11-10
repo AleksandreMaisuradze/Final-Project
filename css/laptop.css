@@ -155,6 +155,12 @@
 
     }
 
+    /* contact section */
+
+    .adress_text{
+        text-wrap: nowrap;
+    }
+    
     /* footer  */
 
     footer {

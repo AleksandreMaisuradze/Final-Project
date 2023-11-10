@@ -884,8 +884,11 @@ footer {
 
 }
 
-.adress {
+.adress_text {
     margin-bottom: 32px;
+}
+
+.adress {
     font-family: Inter, sans-serif;
     font-size: 16px;
     font-weight: 300;
